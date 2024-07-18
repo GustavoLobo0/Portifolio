@@ -1,0 +1,23 @@
+.fundo{
+    overflow: hidden;
+}
+.fundoQuadrado1, .fundoQuadrado2, .fundoQuadrado3{
+    background-color: #13293D;
+}
+
+.fundoQuadrado1{
+    width: 100%;
+    height: 150px;  
+}
+.fundoQuadrado2{
+    margin-left: -300px;
+    margin-top: -400px;
+     width: 1000px; 
+     height: 1000.244px; 
+     transform: translate(30.207px, -27.2149px) rotate(35.7649deg);
+
+}
+
+.fundoQuadrado3{
+    width: 503.063px; height: 313.988px; margin-left: 0px; margin-top: -405px; 
+}
