@@ -17,24 +17,25 @@ header {
 
 .retangulo {
     position: absolute;
-    top: -60px; 
+    top: -65px; 
     right: -60px;
-    width: 500px;
-    height: 400px; 
+    width: 348.557px;
+    height: 290.908px; 
     background-color: #D1FEFF;  
-    transform: rotate(150deg);
-    border-radius: 20px;
+    transform: rotate(-54.1252deg);
+    border-radius: 36px;
 }
 
 .retangulo2 {
     position: absolute;
-    top: -60px;
-    left:-110px;
+    top: -10px;
+    left:-170px;
     width: 500px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: #D1FEFF;
     transform: rotate(148deg);
-    border-radius: 20px;
+    border-radius: 36px;
+    transform: rotate(126.334deg);
 }
 
 h1 {

@@ -19,6 +19,32 @@
 }
 
 .fundoQuadrado3{
-    width: 503.063px; height: 313.988px; margin-left: 0px; margin-top: -405px; 
-    
+    width: 503.063px;
+    height: 313.988px;
+    margin-left: 0px; 
+    margin-top: -405px; 
+
+}
+
+.linha1, .linha2, .linha3{
+background-color: #1B98E0;
+border-radius: 4px;
+
+}
+
+.linha1{
+    margin-top: 10px;
+    width: 547px; 
+    height: 6px; 
+}
+.linha2{
+    width: 623.900px;
+    height: 6.900px;
+    transform: translate(414px, -260px) rotate(-54.2232deg);
+}
+.linha3{
+    width: 8000.169px; 
+    height: 6.900px;
+    transform: translate(902px, -517px)
+
 }

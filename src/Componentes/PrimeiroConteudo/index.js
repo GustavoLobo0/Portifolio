@@ -8,6 +8,11 @@ export function PrimeiroConteudo() {
                 <div className="fundoQuadrado2"></div>
                 <div className="fundoQuadrado3"></div>
             </div>
+            <div className="linha">
+                <div className="linha1"></div>
+                <div className="linha2"></div>
+                <div className="linha3"></div>
+            </div>
         </>
     )
 } 
