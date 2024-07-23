@@ -1,30 +1,13 @@
 .fundo{
     overflow: hidden;
+    position: relative;
 }
-.fundoQuadrado1, .fundoQuadrado2, .fundoQuadrado3{
+.fundoQuadrado{
+    width: 100%;
+    height: 590px;  
     background-color: #13293D;
 }
 
-.fundoQuadrado1{
-    width: 100%;
-    height: 150px;  
-}
-.fundoQuadrado2{
-    margin-left: -300px;
-    margin-top: -400px;
-     width: 1000px; 
-     height: 1000.244px; 
-     transform: translate(30.207px, -27.2149px) rotate(35.7649deg);
-
-}
-
-.fundoQuadrado3{
-    width: 503.063px;
-    height: 313.988px;
-    margin-left: 0px; 
-    margin-top: -405px; 
-
-}
 
 .linha1, .linha2, .linha3{
 background-color: #1B98E0;
@@ -33,13 +16,25 @@ border-radius: 4px;
 }
 
 .linha1{
-    margin-top: 10px;
-    width: 547px; 
+    bottom: 60px;
+    width: 669px; 
     height: 6px; 
+    position: absolute;
 }
 .linha2{
-    width: 623.900px;
-    height: 6.900px;
+    bottom: 17px;
+    left: 140px;
+    width: 540px;
+    height: 6px;
     transform: translate(414px, -260px) rotate(-54.2232deg);
+    position: absolute;
 }
 
+.linha3 {
+    width: 1000px;
+    position: absolute;
+    height: 6px;
+    border-radius: 0%;
+    top: 90px;
+    left: 980px;
+}
