@@ -5,10 +5,9 @@ export function PrimeiroConteudo() {
         <>
             <div className="fundo">
                 <div className="fundoQuadrado"></div>
-                <div className="texto">
                     <h2>Sobre mim:</h2>
                     <p className="apresentaçao">Meu nome é Gustavo, tenho 16 anos e minha paixão sempre foi a tecnologia. Então, fiz este portfólio para demontrar um pouco dos meus conheçimentos.</p>
-                </div>
+
                     <div className="linhas">
                         <div className="linha1"></div>
                         <div className="linha2"></div>

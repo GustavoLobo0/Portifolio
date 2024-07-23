@@ -118,20 +118,14 @@ h2{
 }
 
 @media (max-width: 900px){
-    .linhas{
-        left: -50px;
-
-    }
-    .linha3{
-        left: 814px;
-        top: 30.300px;
-    }
     .linha2{
-        transform: translate(384px, -260px) rotate(-60deg);
-        width:508px ;
+        background-color: transparent;
     }
     .linha1{
-        width: 653px;
+        width: 700%;
+    }
+    .linha3{
+        background-color: transparent;
     }
     .fundoQuadrado {
         height: 530px;
@@ -141,22 +135,25 @@ h2{
 
 @media (max-width: 900px){
     .apresentaçao{
-        left: 160px;
         font-size: 31px;
         width: 400px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         top: 106px;
-        text-align:justify;
+        text-align: justify;
     }
     h2{
         top: 30px;
-        left: 285px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 34px; 
     }
 }
 
 @media (max-width: 800px){
     .apresentaçao{
-        left: 150px;
+        transform: translateX(-50%);
         font-size: 31px;
         width: 400px;
         top: 106px;
@@ -164,13 +161,13 @@ h2{
     }
     h2{
         top: 30px;
-        left: 265px;
+        transform: translateX(-50%);
         font-size: 34px; 
     }
 }
 @media (max-width: 700px){
     .apresentaçao{
-        left: 130px;
+        transform: translateX(-50%);
         position: absolute;
         font-size: 31px;
         width: 400px;
@@ -179,14 +176,14 @@ h2{
     }
     h2{
         top: 30px;
-        left: 245px;
+        transform: translateX(-50%);
         position: absolute;
         font-size: 34px; 
     }
 }
 @media (max-width: 630px){
     .apresentaçao{
-        left: 100px;
+        transform: translateX(-50%);
         font-size: 31px;
         width: 400px;
         top: 106px;
@@ -196,5 +193,70 @@ h2{
         top: 30px;
         left: 215px;
         font-size: 34px; 
+    }
+}
+
+@media (max-width: 500px){
+    .apresentaçao{
+        transform: translateX(-50%);
+        position: absolute;
+        font-size: 31px;
+        width: 400px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        transform: translateX(-50%);
+        position: absolute;
+        font-size: 34px; 
+    }
+}
+@media (max-width: 480px){
+    .apresentaçao{
+        transform: translateX(-50%);
+        font-size: 28px;
+        width: 350px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        transform: translateX(-50%);
+        font-size: 34px;
+    }
+}
+@media (max-width: 430px){
+    .apresentaçao{
+        transform: translateX(-50%);
+        font-size: 28px;
+        width: 350px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        transform: translateX(-50%);
+        font-size: 34px;
+    }
+}
+@media (max-width: 400px){
+    .apresentaçao{
+        transform: translateX(-50%);
+        font-size: 24px;
+        width: 320px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 23px;
+        left: 110px;
+        font-size: 34px;
+    }
+}
+@media (max-width: 400px){
+    .fundoQuadrado {
+        height: 470px;
+
     }
 }
