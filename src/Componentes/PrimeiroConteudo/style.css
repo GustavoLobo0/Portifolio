@@ -24,7 +24,7 @@ h2{
     left: 120px;
     width: 490px;
     font-size: 33px;
-    text-align: center;
+    text-align: justify;
 }
 
 .linha1, .linha2, .linha3 {
@@ -79,36 +79,122 @@ h2{
 @media (max-width: 1500px){
     .apresentaçao{
         left: 60px;
-        position: absolute;
+        text-align:justify;
     }
     h2{
-        left: 180px;
-        position: absolute; 
+        left: 180px; 
+    }
+}
+
+@media (max-width: 1300px){
+    .linhas{
+        left: -203px;
+    }
+    .linha3{
+        left: 590px;
+    }
+    .linha2{
+        transform: translate(380px, -234px) rotate(-63deg);
+        width:434px;
+    }
+
+    .fundoQuadrado {
+        height: 540px;
+    }
+}
+
+@media (max-width: 1300px){
+    .apresentaçao{
+        left: 60px;
+        font-size: 27px;
+        width: 380px;
+        top: 120px;
+        text-align:justify;
+    }
+    h2{
+        left: 170px;
+        font-size: 34px; 
     }
 }
 
 @media (max-width: 900px){
     .linhas{
-        left: -230px;
-        position: relative;
+        left: -50px;
+
     }
     .linha3{
-        left: 678px;
+        left: 814px;
+        top: 30.300px;
+    }
+    .linha2{
+        transform: translate(384px, -260px) rotate(-60deg);
+        width:508px ;
+    }
+    .linha1{
+        width: 653px;
+    }
+    .fundoQuadrado {
+        height: 530px;
+
     }
 }
 
 @media (max-width: 900px){
     .apresentaçao{
-        left: 60px;
-        position: absolute;
-        font-size: 27px;
+        left: 160px;
+        font-size: 31px;
         width: 400px;
-        top: 120px;
+        top: 106px;
+        text-align:justify;
     }
     h2{
+        top: 30px;
+        left: 285px;
+        font-size: 34px; 
+    }
+}
 
-        left: 170px;
+@media (max-width: 800px){
+    .apresentaçao{
+        left: 150px;
+        font-size: 31px;
+        width: 400px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        left: 265px;
+        font-size: 34px; 
+    }
+}
+@media (max-width: 700px){
+    .apresentaçao{
+        left: 130px;
         position: absolute;
+        font-size: 31px;
+        width: 400px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        left: 245px;
+        position: absolute;
+        font-size: 34px; 
+    }
+}
+@media (max-width: 630px){
+    .apresentaçao{
+        left: 100px;
+        font-size: 31px;
+        width: 400px;
+        top: 106px;
+        text-align:justify;
+    }
+    h2{
+        top: 30px;
+        left: 215px;
         font-size: 34px; 
     }
 }
