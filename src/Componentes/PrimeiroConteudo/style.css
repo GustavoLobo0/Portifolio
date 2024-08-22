@@ -1,271 +1,116 @@
 .fundo {
     overflow: hidden;
-    position: relative;
+    height: 440px;
+    width: 100%;
+    background-color: #13293D;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .fundoQuadrado {
-    width: 100%;
-    height: 590px;
-    background-color: #13293D;
+    width: 400%;
+    max-width: 400px;
+    margin-left: 130px;
+
 }
 
-h2{
-    font-size: 50px;
-    top: 30px;
-    left: 240px;
+h2 {
+    font-size: 5vh;
     color: white;
-    position: absolute;
-    
+    text-align: center;
+    margin-bottom: 0px;
+
 }
-.apresentaçao{
+
+.apresentaçao {
     color: white;
-    position: absolute;
-    top: 130px;
-    left: 120px;
-    width: 490px;
-    font-size: 33px;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 15px;
+}
+.sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.titulo, .instagram, .linkedin {    
+    width: 237px;
+    height: 47px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 
 }
 
-.linha1, .linha2, .linha3 {
-    background-color: #1B98E0;
-    border-radius: 4px;
-    height: 6px;
-    position: absolute;
-
+.titulo {
+    background-color: #318CE7;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.linha1 {
-    bottom: 60px;
-    width: 639px;
-    
+.titulo p {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px;
 }
 
-.linha2 {
-    bottom: 17px;
-    left: 140px;
-    width: 540px;
-    transform: translate(384px, -260px) rotate(-54.2232deg);
-    
+.instagram {
+    background-color: #ffffff;
 }
 
-.linha3 {
-    width:100%;
-    top: 90px;
-    left: 950px;
+.instagram p {
+    color: #318CE7;
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px;
 }
 
-@media (max-width: 1600px){
+.linkedin {
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
-    .linha3{
-        left: 832px;
-    }
-    .linha2{
-        transform: translate(380px, -234px) rotate(-63deg);
-        width:434px;
-    }
-    
+
+.linkedin p {
+    color: #318CE7;
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+@media (max-width: 900px) {
     .fundoQuadrado {
-        height: 540px;
+        margin-top: 0px;
+        margin-left: auto;  
+        margin-right: auto; 
+        max-width: 80%; 
+        text-align: center;
     }
+.fundo{
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
 
 }
-@media (max-width: 1500px){
-    .linhas{
-        left: -203px;
-    }
-    .linha3{
-        left: 832px;
-    }
-    .linha2{
-        transform: translate(380px, -234px) rotate(-63deg);
-        width:434px;
-    }
-}
 
-@media (max-width: 1500px){
-    .apresentaçao{
-        left: 60px;
-    
-    }
-    h2{
-        left: 180px; 
+    .sociais{
+        align-self: center; 
+        margin-bottom: 100px;
     }
 }
 
-@media (max-width: 1300px){
-    .linhas{
-        left: -103px;
-        position: relative;
-
-    }
-    .linha3{
-        left: 730px;
-    }
-    .linha2{
-        transform: translate(380px, -234px) rotate(-63deg);
-        width:434px;
-    }
-
-    .fundoQuadrado {
-        height: 540px;
+@media (max-width: 410px) {
+    .fundo{
+        height: 580px;
     }
 }
 
-@media (max-width: 1300px){
-    .apresentaçao{
-        left: 60px;
-        font-size: 28px;
-        width: 380px;
-        top: 110px;
-    
-    }
-    h2{
-        transform: translateX(-14%);
-        font-size: 40px; 
-    }
-}
-
-@media (max-width: 900px){
-    .linha2{
-        background-color: transparent;
-    }
-    .linha1{
-        width: 700%;
-    }
-    .linha3{
-        background-color: transparent;
-    }
-    .fundoQuadrado {
-        height: 730px;
-
-    }
-}
-
-@media (max-width: 900px){
-    .apresentaçao{
-        font-size: 31px;
-        width: 400px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 106px;
- 
-    }
-    h2{
-        top: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 34px; 
-    }
-}
-
-@media (max-width: 800px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        font-size: 31px;
-        width: 400px;
-        top: 106px;
-    
-    }
-    h2{
-        top: 30px;
-        transform: translateX(-50%);
-        font-size: 34px; 
-    }
-}
-@media (max-width: 700px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        position: absolute;
-        font-size: 31px;
-        width: 400px;
-        top: 106px;
-        
-    }
-    h2{
-        top: 30px;
-        transform: translateX(-50%);
-        position: absolute;
-        font-size: 34px; 
-    }
-}
-@media (max-width: 630px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        font-size: 31px;
-        width: 400px;
-        top: 106px;
-   
-    }
-    h2{
-        top: 30px;
-        left: 215px;
-        font-size: 34px; 
-    }
-}
-
-@media (max-width: 500px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        position: absolute;
-        font-size: 31px;
-        width: 400px;
-        top: 106px;
-       
-    }
-    h2{
-        top: 30px;
-        transform: translateX(-50%);
-        position: absolute;
-        font-size: 34px; 
-    }
-}
-@media (max-width: 480px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        font-size: 28px;
-        width: 350px;
-        top: 106px;
-     
-    }
-    h2{
-        top: 30px;
-        font-size: 34px;
-    }
-}
-@media (max-width: 430px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        font-size: 28px;
-        width: 350px;
-        top: 106px;
-    
-    }
-    h2{
-        top: 30px;
-        transform: translateX(-50%);
-        font-size: 34px;
-    }
-}
-@media (max-width: 400px){
-    .apresentaçao{
-        transform: translateX(-50%);
-        font-size: 24px;
-        width: 320px;
-        top: 106px;
-      
-    }
-    h2{
-
-        top: 23px;
-        font-size: 34px;
-        width: 60%;
-    }
-}
-@media (max-width: 400px){
-    .fundoQuadrado {
-        height: 470px;
-
-    }
-}
