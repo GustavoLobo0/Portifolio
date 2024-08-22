@@ -109,7 +109,11 @@ h2 {
 }
 @media (max-width: 520px) {
     .fundo{
-        height: 580px;
+        height: 520px;
+    }
+    .sociais{
+
+        margin-bottom: 50px;
     }
 }
 
