@@ -11,7 +11,7 @@
 
 h2{
     font-size: 50px;
-    top: 60px;
+    top: 30px;
     left: 240px;
     color: white;
     position: absolute;
@@ -20,11 +20,11 @@ h2{
 .apresentaçao{
     color: white;
     position: absolute;
-    top: 160px;
+    top: 130px;
     left: 120px;
     width: 490px;
     font-size: 33px;
-    text-align: justify;
+
 }
 
 .linha1, .linha2, .linha3 {
@@ -56,30 +56,37 @@ h2{
 }
 
 @media (max-width: 1600px){
-    .linha1{
-        left: -40px;
+
+    .linha3{
+        left: 832px;
     }
     .linha2{
-        left: 100px;
+        transform: translate(380px, -234px) rotate(-63deg);
+        width:434px;
     }
-    .linha3{
-        left: 909px;
+    
+    .fundoQuadrado {
+        height: 540px;
     }
+
 }
 @media (max-width: 1500px){
     .linhas{
-        left: -50px;
-        position: relative;
+        left: -203px;
     }
     .linha3{
-        left: 859px;
+        left: 832px;
+    }
+    .linha2{
+        transform: translate(380px, -234px) rotate(-63deg);
+        width:434px;
     }
 }
 
 @media (max-width: 1500px){
     .apresentaçao{
         left: 60px;
-        text-align:justify;
+    
     }
     h2{
         left: 180px; 
@@ -88,10 +95,12 @@ h2{
 
 @media (max-width: 1300px){
     .linhas{
-        left: -203px;
+        left: -103px;
+        position: relative;
+
     }
     .linha3{
-        left: 590px;
+        left: 730px;
     }
     .linha2{
         transform: translate(380px, -234px) rotate(-63deg);
@@ -106,14 +115,14 @@ h2{
 @media (max-width: 1300px){
     .apresentaçao{
         left: 60px;
-        font-size: 27px;
+        font-size: 28px;
         width: 380px;
-        top: 120px;
-        text-align:justify;
+        top: 110px;
+    
     }
     h2{
-        left: 170px;
-        font-size: 34px; 
+        transform: translateX(-14%);
+        font-size: 40px; 
     }
 }
 
@@ -141,7 +150,7 @@ h2{
         left: 50%;
         transform: translateX(-50%);
         top: 106px;
-        text-align: justify;
+ 
     }
     h2{
         top: 30px;
@@ -157,7 +166,7 @@ h2{
         font-size: 31px;
         width: 400px;
         top: 106px;
-        text-align:justify;
+    
     }
     h2{
         top: 30px;
@@ -172,7 +181,7 @@ h2{
         font-size: 31px;
         width: 400px;
         top: 106px;
-        text-align:justify;
+        
     }
     h2{
         top: 30px;
@@ -187,7 +196,7 @@ h2{
         font-size: 31px;
         width: 400px;
         top: 106px;
-        text-align:justify;
+   
     }
     h2{
         top: 30px;
@@ -203,7 +212,7 @@ h2{
         font-size: 31px;
         width: 400px;
         top: 106px;
-        text-align:justify;
+       
     }
     h2{
         top: 30px;
@@ -218,11 +227,10 @@ h2{
         font-size: 28px;
         width: 350px;
         top: 106px;
-        text-align:justify;
+     
     }
     h2{
         top: 30px;
-        transform: translateX(-50%);
         font-size: 34px;
     }
 }
@@ -232,7 +240,7 @@ h2{
         font-size: 28px;
         width: 350px;
         top: 106px;
-        text-align:justify;
+    
     }
     h2{
         top: 30px;
@@ -246,12 +254,13 @@ h2{
         font-size: 24px;
         width: 320px;
         top: 106px;
-        text-align:justify;
+      
     }
     h2{
+
         top: 23px;
-        left: 110px;
         font-size: 34px;
+        width: 60%;
     }
 }
 @media (max-width: 400px){
