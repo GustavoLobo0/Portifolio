@@ -2,62 +2,60 @@
     height: 200px;
     overflow: hidden;
     position: relative; 
-    top: -260px;
-    right: -46%;
-    width: 800px;
-}
-.titulo {
-    background-color: #318CE7;
-    top: 10px; 
-    left: 62%; 
-    transform: translateX(-50%); 
+    top: -420px;
+    right: -60%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
 }
 
-.titulo, .instagram, .linkedin {
-    width: 277px;
+.titulo, .instagram, .linkedin {    
+    width: 237px;
     height: 47px;
     border-radius: 11px;
     display: flex; 
     justify-content: center;
     align-items: center;
-    position: absolute; 
-}
-.titulo p, .instagram p, .linkedin p{
-    font-weight: 700;
-    font-size: 27px;
-
+    margin-bottom: 10px;
 }
 
-
+.titulo {
+    background-color: #318CE7;
+}
 
 .titulo p {
     color: white;
     text-align: center;
-    
+    font-weight: 700;
+    font-size: 27px;
 }
 
 .instagram {
     background-color: #ffffff;
-    top: 67px; 
-    left: 640px; 
-    transform: translateX(-50%); 
 }
 
 .instagram p {
     color: #318CE7;
     text-align: center;
-    
+    font-weight: 700;
+    font-size: 27px;
 }
 
 .linkedin {
     background-color: #ffffff;
-    top: 67px; 
-    left: 360px; 
-    transform: translateX(-50%); 
 }
 
 .linkedin p {
     color: #318CE7;
     text-align: center;
-
+    font-weight: 700;
+    font-size: 27px;
+}
+@media (max-width: 900px){
+    .sociais{
+        top: -270px;
+        right: -30%;
+    }
 }

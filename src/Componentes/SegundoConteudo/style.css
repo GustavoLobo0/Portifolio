@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Questrial&display=swap');
+
+.pai{
+    position: relative;
+    top: -160px;
+}
+.Tecnologias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.tituloh3 {
+    color: #006494;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+}
+
+.react,
+.next,
+.js {
+    margin-top: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: #318ce7;
+    border-radius: 20px;
+    position: relative;
+}
+
+.react,
+.next {
+    margin-right: 160px;
+}
+
+.react p,
+.next p,
+.js p {
+    color: #318ce7;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-weight: 700;
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 1150px) {
+
+    .react,
+    .next {
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .react,
+    .next {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 890px) {
+    .Tecnologias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .react,
+    .next {
+        margin-right: 0px;
+    }
+    .react,
+    .next,
+    .js {
+        margin-bottom: 100px; 
+    }
+}
+@media (max-width: 550px) {
+    .react,
+    .next,
+    .js {
+        width: 230px;
+        height: 230px;
+    }
+    .js p {
+        white-space: nowrap;
+    }
+}
