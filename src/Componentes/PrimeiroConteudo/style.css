@@ -107,6 +107,11 @@ h2 {
         margin-bottom: 100px;
     }
 }
+@media (max-width: 520px) {
+    .fundo{
+        height: 580px;
+    }
+}
 
 @media (max-width: 410px) {
     .fundo{
