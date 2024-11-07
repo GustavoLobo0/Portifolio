@@ -10,8 +10,8 @@ export function PrimeiroConteudo() {
                 </div>
                 <div className="sociais">
                     <div className="titulo"><p>Redes Sociais</p></div>
-                    <div className="instagram"> <div className="Instagram"></div><p>Instagram</p></div>
-                    <div className="linkedin"><p>Linkedin</p></div>
+                    <div className="instagram"> <div className="Instagram"></div><p>Instagram: <a className="linkI" href="https://www.instagram.com/gust4.snts/" target="_blank">gust4.snts</a></p></div>
+                    <div className="linkedin"><p>Linkedin: <a className="linkL" href="https://www.linkedin.com/in/gustavo-cesar-0786b12a3/" target="_blank">Gustavo Santos</a></p></div>
                 </div>
             </div>
         </>

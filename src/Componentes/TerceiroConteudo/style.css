@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.fundoFormulario{
+    background-image: url(../images/Formulario.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center; 
+    background-position: center;
+}
+
+.formulario {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    border: 1px solid #082956;
+    border-radius: 7px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transition: 0.5s ease;
+}
+.tituloContato{
+    margin-top: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #082956;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.Nome, .Email, .Assunto, .Texto{
+    background: none;
+    margin: 15px 0px 50px 0px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight:500;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+}
+.Texto{
+    resize: none;
+    height: 185px;
+}
+.enviar{
+    background-color: #082956;
+    border: none;
+    font-size: 18px;
+    color: white;
+    height: 37px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.enviar:hover{
+    width: 310px;
+    height: 38px;
+    background-color: #032048;
+}
+.Nome:hover, .Email:hover, .Assunto:hover{
+    border-bottom: 1px white solid;
+    transition: border-bottom 0.9s ease;
+}
+
+input::placeholder, textarea::placeholder{
+    color: white;
+    opacity: 0.9;
+}
+.formulario:hover{
+    backdrop-filter: blur(30px);
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.maisSobreMim {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 2% 10%;
+}
+
+.Sobre {
+    color: #006494;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.topico1, .topico2, .topico3 {
+    display: flex;
+    align-items: center;
+    transition: transform 0.9s ease-out;
+    
+}
+.topico1:hover, .topico2:hover, .topico3:hover{
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in;
+
+}
+.linha1, .linha2, .linha3 {
+    width: 3px;
+    height: 60px;
+    background-color: #006494;
+
+}
+.topico1 p, .topico2 p, .topico3 p {
+    width: 1400px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    max-width: 100%;
+    position: relative;
+    top: -74px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .topico1 p, .topico2 p, .topico3 p {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Sobre {
+        font-size: 30px;
+    }
+
+    .topico1, .topico2, .topico3 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topico1 p, .topico2 p, .topico3 p {
+        width: 100%;
+
+        font-size: 14px;
+    }
+}
