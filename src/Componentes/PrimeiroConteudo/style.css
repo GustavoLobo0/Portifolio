@@ -156,6 +156,8 @@ h2 {
     .sociais {
         align-self: center;
         padding-right: 0px;
+        position: relative;
+        left: -10px;
     }
 }
 @media (max-width: 740px) {

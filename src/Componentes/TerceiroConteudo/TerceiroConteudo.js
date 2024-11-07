@@ -20,9 +20,9 @@ export function TerceiroConteudo() {
         })
         .then(res => {
             if (res.ok) {
-                setMensagemEnviada(true); // Exibe a mensagem de confirmação
-                formEl.reset(); // Limpa o formulário
-                setTimeout(() => setMensagemEnviada(false), 5000); // Oculta a mensagem após 5 segundos
+                setMensagemEnviada(true); 
+                formEl.reset(); 
+                setTimeout(() => setMensagemEnviada(false), 5000); 
             } else {
                 console.error("Erro ao enviar dados:", res.statusText);
             }
