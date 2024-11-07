@@ -5,51 +5,63 @@
     background-color: #13293D;
     display: flex;
     justify-content: space-between;
-
+    background:linear-gradient(rgba(19, 41, 61, 0.7), rgba(19, 41, 61, 0.7)), url(../images/fundo.jpg);
+    background-size:  100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
 
 .fundoQuadrado {
     width: 400%;
-    max-width: 400px;
-    margin-left: 130px;
+    max-width: 550px;
+    margin-left: 400px;
+    transition: 0.2s ease;
 
 }
 
 h2 {
     font-size: 5vh;
     color: white;
-    text-align: center;
+    text-align: start;
     margin-bottom: 0px;
-
+    margin-left: 10px;
 }
 
 .apresentaçao {
     color: white;
     font-size: 3vh;
-    text-align: center;
+    text-align: start;
     margin-top: 15px;
+    margin-right: 160px;
+
 }
+
 .sociais {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center; 
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 140px;
+    padding-right: 180px;
 }
 
-.titulo, .instagram, .linkedin {    
-    width: 237px;
-    height: 47px;
-    display: flex; 
-    justify-content: center;
+.titulo,
+.instagram,
+.linkedin {
+    width: 320px;
+    height: 60px;
+    display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
 .titulo {
-    background-color: #318CE7;
+    background-color: #082956;
     margin-bottom: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -59,18 +71,26 @@ h2 {
     color: white;
     text-align: center;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 37px;
 }
 
 .instagram {
     background-color: #ffffff;
+
 }
 
 .instagram p {
-    color: #318CE7;
-    text-align: center;
+    color: #3f87df;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 22px;
+    margin: 0px;
+
+
+}
+
+.linkI {
+    text-decoration: none;
+    color: #446389;
 }
 
 .linkedin {
@@ -79,52 +99,103 @@ h2 {
     border-bottom-right-radius: 5px;
 }
 
+.linkL {
+    text-decoration: none;
+    color: #446389;
+}
 
 .linkedin p {
-    color: #318CE7;
+    color: #3f87df;
     text-align: center;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 22px;
 }
+@media (max-width: 1450px) {
+    .sociais {
+        padding-right: 70px;
+        padding-left: 20px;
+    }
+    .fundoQuadrado{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 1050px) {
 
+    .fundoQuadrado{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 990px) {
+    .apresentaçao{
+        margin-right: 80px;
+    }
+}
 @media (max-width: 900px) {
+
+    .apresentaçao,
+    h2 {
+        text-align: center;
+        margin-right: 0px;
+    }
+
     .fundoQuadrado {
         margin-top: 0px;
-        margin-left: auto;  
-        margin-right: auto; 
-        max-width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
         text-align: center;
     }
-.fundo{
-    height: 500px;
-    display: flex;
-    flex-direction: column; 
 
-}
+    .fundo {
+        height: 490px;
+        display: flex;
+        flex-direction: column;
 
-    .sociais{
-        align-self: center; 
-        margin-bottom: 100px;
+    }
+
+    .sociais {
+        align-self: center;
+        padding-right: 0px;
     }
 }
-@media (max-width: 520px) {
-    .fundo{
-        height: 530px;
+@media (max-width: 740px) {
+    .titulo,
+    .instagram,
+    .linkedin {
+        width: 270px;
+        height: 50px;
     }
-    .sociais{
-
-        margin-bottom: 50px;
+    .titulo p {
+        font-size: 27px;
+    }
+    .instagram p, .linkedin p {
+        font-size: 20px;
     }
 }
-
+@media (max-width: 660px) {
+    .fundo {
+        height: 500px;
+background-position: left 10% center;
+    }
+}
+@media (max-width: 524px) {
+    .fundo {
+        height: 550px;
+    }
+}
 @media (max-width: 480px) {
-    .fundo{
-        height: 530px;
+    .fundo {
+        height: 570px;
     }
 }
-@media (max-width: 410px) {
-    .fundo{
-        height: 580px;
+@media (max-width: 435px) {
+    .fundo {
+        height: 600px;
     }
 }
 
+@media (max-width: 380px) {
+    .fundo {
+        height: 640px;
+    }
+}
