@@ -44,6 +44,20 @@
     top: -74px;
     margin-right: 10px;
 }
+.Eu{
+    background-image: url(../images/EuGusta.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+
+}
+.EuTexto{
+    padding-bottom: 50px;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .topico1 p, .topico2 p, .topico3 p {

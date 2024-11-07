@@ -9,6 +9,8 @@ export function QuartoConteudo() {
                 <div className="linha2"></div><div className="topico2"> <p>Sou fascinado por idiomas e atualmente estou aprendendo russo enquanto aperfeiçoo meu inglês. Meu objetivo é dominar novas línguas no futuro, pois acredito que isso abre portas para novas culturas e formas de pensar.</p></div>
                 <div className="linha3"></div><div className="topico3"><p>Fora do código, sou um grande fã de jogos, especialmente os que envolvem construção e sobrevivência. Gosto de explorar a liberdade dos jogos sandbox, onde posso criar, planejar estratégias e superar desafios.</p></div>
             </div>
+            <p className="EuTexto">Oia o Gustavo ai kk </p>
+            <div className="Eu"></div>
         </>
     )
 }
