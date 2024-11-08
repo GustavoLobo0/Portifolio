@@ -3,6 +3,7 @@ import { PrimeiroConteudo } from "./Componentes/PrimeiroConteudo/index.js";
 import { SegundoConteudo } from "./Componentes/SegundoConteudo/SegundoConteudo.js";
 import { TerceiroConteudo } from "./Componentes/TerceiroConteudo/TerceiroConteudo.js";
 import { QuartoConteudo } from "./Componentes/QuartoConteudo/QuartoConteudo.js";
+import { QuintoConteudo } from "./Componentes/QuintoConteudo/QuintoConteudo.js";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <SegundoConteudo />
       <TerceiroConteudo />
       <QuartoConteudo />
+      <QuintoConteudo />
     </>
   );
 }
